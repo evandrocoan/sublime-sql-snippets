@@ -30,18 +30,28 @@ Feel free to let me know what else you want added via:
 - [Privileges](#privileges)
 - [Other](#other)
 
-### Installation
 
-There are 3 methods for installing this plugin.
+## Installation
 
-1. Search for "MySQL Snippets" via the "Package Control: Install Packages" menu.
-**Note:** If you don't have Sublime Package Control installed, you can find out how to install it here [https://sublime.wbond.net/installation](https://sublime.wbond.net/installation)
+### By Package Control
 
-2. Clone the repository into your Sublime Text 2/3 packages directory.
-`git clone https://github.com/ancor-dev/sublime-sql-snippets.git`
+1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
+1. Go to the menu `Tools -> Install Package Control`, then,
+   wait few seconds until the `Package Control` installation finishes
+1. Go to the menu `Preferences -> Package Control`
+1. Type `Package Control Add Channel` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, input the following address and press <kbd>Enter</kbd>
+   ```
+   https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
+   ```
+1. Now, go again to the menu `Preferences -> Package Control`
+1. This time type `Package Control Install Package` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, search for `MySQLSnippets` and press <kbd>Enter</kbd>
 
-3. Download the .zip file and unzip it into your Sublime Text 2/3 packages directory.
-**Note:** You can find your Sublime Text 2/3 packages directory by going to Preferences > Browse Packages.
+See also:
+1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
+1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
+
 
 ### Database
 | Snippet Code     | Description    |
